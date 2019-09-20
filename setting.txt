@@ -1,0 +1,4 @@
+add
+.container { width:100% !important}
+to the end of
+/usr/lib/python3/dist-packages/notebook/static/custom/custom.css
