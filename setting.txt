@@ -14,4 +14,5 @@ reference https://ipython.readthedocs.io/en/stable/config/options/kernel.html an
 sudo -H pip3 install -t /usr/lib/python3/dist-packages xgboost
 when uninstall it said that xgboost not install and also download scipy and numpy
 
+jupyter 3d visualization
 https://github.com/OpenDreamKit/OpenDreamKit/issues/86#issuecomment-287070822
