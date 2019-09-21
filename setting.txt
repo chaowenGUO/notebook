@@ -6,6 +6,7 @@ to the end of
 add
 c = get_config()
 c.InteractiveShellApp.matplotlib = 'notebook'
+c.InteractiveShellApp.extensions = ['sympy.interactive.ipythonprinting']
 to
 /etc/ipython/ipython_config.py
-reference https://ipython.readthedocs.io/en/stable/config/index.html#extending-and-integrating-with-ipython and https://jupyterhub.readthedocs.io/en/stable/reference/config-user-env.html
+reference https://ipython.readthedocs.io/en/stable/config/options/kernel.html and https://jupyterhub.readthedocs.io/en/stable/reference/config-user-env.html and https://ipython.readthedocs.io/en/stable/config/extensions/index.html and ipython3 --help and /usr/lib/python3/dist-packages/sympy/interactive/ipythonprinting.py
