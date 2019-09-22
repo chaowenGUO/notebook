@@ -16,3 +16,5 @@ when uninstall it said that xgboost not install and also download scipy and nump
 
 jupyter 3d visualization
 https://github.com/OpenDreamKit/OpenDreamKit/issues/86#issuecomment-287070822
+
+pip usually requires setuptools and wheel, but the later two are not installed automatically
