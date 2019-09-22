@@ -18,3 +18,8 @@ jupyter 3d visualization
 https://github.com/OpenDreamKit/OpenDreamKit/issues/86#issuecomment-287070822
 
 pip usually requires setuptools and wheel, but the later two are not installed automatically
+
+jupyter nbextension install --py --symlink --sys-prefix ipympl
+set symbol link /usr/share/jupyter/nbextensions/jupyter-matplotlib to /usr/lib/python3/dist-packages/ipympl/static
+jupyter nbextension enable --py --sys-prefix ipympl
+add "jupyter-matplotlib/extension": true to /etc/jupyter/nbconfig/notebook.json
