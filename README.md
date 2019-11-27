@@ -24,8 +24,8 @@ set symbol link /usr/share/jupyter/nbextensions/jupyter-matplotlib to /usr/lib/p
 jupyter nbextension enable --py --sys-prefix ipympl<br>
 add "jupyter-matplotlib/extension": true to /etc/jupyter/nbconfig/notebook.json
 
-apt-get install chromium-browser-l10n
+apt-get install chromium-browser-l10n<br>
 Menu---Internet---Chromium Web Browser---right click mouse---Add to panel
 
-apt-get install language-pack-gnome-zh-hans
+apt-get install language-pack-gnome-zh-hans<br>
 /etc/default/locale
