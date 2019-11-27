@@ -23,3 +23,9 @@ jupyter nbextension install --py --symlink --sys-prefix ipympl<br>
 set symbol link /usr/share/jupyter/nbextensions/jupyter-matplotlib to /usr/lib/python3/dist-packages/ipympl/static<br>
 jupyter nbextension enable --py --sys-prefix ipympl<br>
 add "jupyter-matplotlib/extension": true to /etc/jupyter/nbconfig/notebook.json
+
+apt-get install chromium-browser-l10n
+Menu---Internet---Chromium Web Browser---right click mouse---Add to panel
+
+apt-get install language-pack-gnome-zh-hans
+/etc/default/locale
