@@ -29,3 +29,5 @@ Menu---Internet---Chromium Web Browser---right click mouse---Add to panel
 
 apt-get install language-pack-gnome-zh-hans<br>
 /etc/default/locale
+
+objdump -dC .o
